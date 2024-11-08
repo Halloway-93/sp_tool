@@ -3,7 +3,7 @@ import math
 
 import numpy as np
 
-import util
+from . import util
 from sp_tool.arff_helper import ArffHelper
 
 

@@ -6,7 +6,7 @@ from collections import OrderedDict
 import inspect
 
 from sp_tool.arff_helper import ArffHelper
-import util
+from . import util
 
 EM_VALUE_MAPPING_DEFAULT = {
     0: 'UNKNOWN',
